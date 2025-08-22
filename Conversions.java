@@ -37,8 +37,75 @@ public class Conversions
         }
         if (selection == 2)
         {
-            //add the code to ask the user to enter Fahrenheit and then convert to Celsius
+            System.out.println("Enter Fahrenheit: ");
+            double fahrenheit = keyboard.nextDouble();
+            keyboard.nextLine();
+            double celsius = fahrenheit * (5.0 / 9.0) - 32;
+            System.out.println(fahrenheit + " degrees fahrenheit is " + celsius + " degrees celsius");
         }
-        //add more if statements here.
+        if (selection == 3)
+        {
+            System.out.println("Enter Feet: ");
+            double feet = keyboard.nextDouble();
+            keyboard.nextLine();
+            double meter = feet * 0.3048;
+            System.out.println(feet + " feet is " + meter + " meters");
+        }
+        if (selection == 4)
+        {
+            System.out.println("Enter meter: ");
+            double meter = keyboard.nextDouble();
+            keyboard.nextLine();
+            double feet = meter * 3.28084;
+            System.out.println(meter + " meter is " + feet + " feet");
+        }
+        if (selection == 5)
+        {
+            System.out.println("Enter Ounces: ");
+            double ounces = keyboard.nextDouble();
+            keyboard.nextLine();
+            double milliliters = ounces * 29.5735;
+            System.out.println(ounces + " ounces is " + milliliters + " milliliters");
+        }
+        if (selection == 6)
+        {
+            System.out.println("Enter milliliters: ");
+            double milliliters = keyboard.nextDouble();
+            keyboard.nextLine();
+            double ounces = milliliters * 0.033814;
+            System.out.println(milliliters + " milliliters is " + ounces + " degrees ounces");
+        }
+        if (selection == 7)
+        {
+            System.out.println("Enter Feet: ");
+            double feet = keyboard.nextDouble();
+            keyboard.nextLine();
+            double miles = feet * 0.000189394;
+            System.out.println(feet + " feet is " + miles + " miles");
+        }
+        if (selection == 8)
+        {
+            System.out.println("Enter miles: ");
+            double miles = keyboard.nextDouble();
+            keyboard.nextLine();
+            double feet = miles * 5280.0016896;
+            System.out.println(miles + " miles is " + feet + " feet");
+        }
+        if (selection == 9)
+        {
+            System.out.println("Enter Gallons: ");
+            double Gallons = keyboard.nextDouble();
+            keyboard.nextLine();
+            double liter = Gallons * 3.78541;
+            System.out.println(Gallons + "  Gallons is " + liter + " liter");
+        }
+        if (selection == 10)
+        {
+            System.out.println("Enter liter: ");
+            double liter = keyboard.nextDouble();
+            keyboard.nextLine();
+            double Gallons = liter * 0.264172;
+            System.out.println(liter + " liter is " + Gallons + "  Gallons");
+        }
     }
 }
