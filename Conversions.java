@@ -41,6 +41,11 @@ public class Conversions
                 keyboard.nextLine();
                 double fahrenheit = celsius * (9.0 / 5.0) + 32;
                 System.out.println(celsius + " degrees celsius is " + fahrenheit + " degrees fahrenheit");
+                try {
+                    Thread.sleep(1000);
+                } catch (Exception e) {
+                    // TODO: handle exception
+                };
             }
             if (selection == 2)
             {
@@ -49,6 +54,11 @@ public class Conversions
                 keyboard.nextLine();
                 double celsius = fahrenheit * (5.0 / 9.0) - 32;
                 System.out.println(fahrenheit + " degrees fahrenheit is " + celsius + " degrees celsius");
+                try {
+                    Thread.sleep(1000);
+                } catch (Exception e) {
+                    // TODO: handle exception
+                };
             }
             if (selection == 3)
             {
@@ -57,6 +67,11 @@ public class Conversions
                 keyboard.nextLine();
                 double meter = feet * 0.3048;
                 System.out.println(feet + " feet is " + meter + " meters");
+                try {
+                    Thread.sleep(1000);
+                } catch (Exception e) {
+                    // TODO: handle exception
+                };
             }
             if (selection == 4)
             {
@@ -65,6 +80,11 @@ public class Conversions
                 keyboard.nextLine();
                 double feet = meter * 3.28084;
                 System.out.println(meter + " meter is " + feet + " feet");
+                try {
+                    Thread.sleep(1000);
+                } catch (Exception e) {
+                    // TODO: handle exception
+                };
             }
             if (selection == 5)
             {
@@ -73,6 +93,11 @@ public class Conversions
                 keyboard.nextLine();
                 double milliliters = ounces * 29.5735;
                 System.out.println(ounces + " ounces is " + milliliters + " milliliters");
+                try {
+                    Thread.sleep(1000);
+                } catch (Exception e) {
+                    // TODO: handle exception
+                };
             }
             if (selection == 6)
             {
@@ -81,6 +106,11 @@ public class Conversions
                 keyboard.nextLine();
                 double ounces = milliliters * 0.033814;
                 System.out.println(milliliters + " milliliters is " + ounces + " degrees ounces");
+                try {
+                    Thread.sleep(1000);
+                } catch (Exception e) {
+                    // TODO: handle exception
+                };
             }
             if (selection == 7)
             {
@@ -89,6 +119,11 @@ public class Conversions
                 keyboard.nextLine();
                 double miles = feet * 0.000189394;
                 System.out.println(feet + " feet is " + miles + " miles");
+                try {
+                    Thread.sleep(1000);
+                } catch (Exception e) {
+                    // TODO: handle exception
+                };                
             }
             if (selection == 8)
             {
@@ -97,6 +132,11 @@ public class Conversions
                 keyboard.nextLine();
                 double feet = miles * 5280.0016896;
                 System.out.println(miles + " miles is " + feet + " feet");
+                try {
+                    Thread.sleep(1000);
+                } catch (Exception e) {
+                    // TODO: handle exception
+                };
             }
             if (selection == 9)
             {
